@@ -15,6 +15,7 @@
 		1F62BC461BE5A939005555D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F62BC441BE5A939005555D9 /* LaunchScreen.storyboard */; };
 		1F62BC511BE5A93A005555D9 /* CatZanButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62BC501BE5A93A005555D9 /* CatZanButtonTests.m */; };
 		1F62BC5C1BE5A93A005555D9 /* CatZanButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62BC5B1BE5A93A005555D9 /* CatZanButtonUITests.m */; };
+		1F62BC6F1BE5AFA7005555D9 /* CatZanButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F62BC6E1BE5AFA7005555D9 /* CatZanButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		1F62BC571BE5A93A005555D9 /* CatZanButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatZanButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F62BC5B1BE5A93A005555D9 /* CatZanButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatZanButtonUITests.m; sourceTree = "<group>"; };
 		1F62BC5D1BE5A93A005555D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F62BC6D1BE5AFA7005555D9 /* CatZanButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatZanButton.h; sourceTree = "<group>"; };
+		1F62BC6E1BE5AFA7005555D9 /* CatZanButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CatZanButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		1F62BC351BE5A939005555D9 /* CatZanButton */ = {
 			isa = PBXGroup;
 			children = (
+				1F62BC691BE5AD7D005555D9 /* CatZanButton */,
 				1F62BC391BE5A939005555D9 /* AppDelegate.h */,
 				1F62BC3A1BE5A939005555D9 /* AppDelegate.m */,
 				1F62BC3C1BE5A939005555D9 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				1F62BC5D1BE5A93A005555D9 /* Info.plist */,
 			);
 			path = CatZanButtonUITests;
+			sourceTree = "<group>";
+		};
+		1F62BC691BE5AD7D005555D9 /* CatZanButton */ = {
+			isa = PBXGroup;
+			children = (
+				1F62BC6D1BE5AFA7005555D9 /* CatZanButton.h */,
+				1F62BC6E1BE5AFA7005555D9 /* CatZanButton.m */,
+			);
+			path = CatZanButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +285,7 @@
 			files = (
 				1F62BC3E1BE5A939005555D9 /* ViewController.m in Sources */,
 				1F62BC3B1BE5A939005555D9 /* AppDelegate.m in Sources */,
+				1F62BC6F1BE5AFA7005555D9 /* CatZanButton.m in Sources */,
 				1F62BC381BE5A939005555D9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
